@@ -1,7 +1,11 @@
 {
     "name": "@repo/core",
     "type": "module",
-    "main": "index.ts",
+    "main": "dist/index.js",
+    "types": "src/index.ts",
+    "scripts": {
+        "build": "tsc"
+    },
     "dependencies": {
         "@faker-js/faker": "^9.4.0"
     }
