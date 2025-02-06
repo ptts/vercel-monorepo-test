@@ -1,0 +1,19 @@
+{
+    "name": "@repo/api",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsx node.entry.ts",
+        "vercel": "vercel"
+    },
+    "packageManager": "pnpm@9.0.0",
+    "dependencies": {
+        "@hono/node-server": "^1.13.8",
+        "@repo/core": "workspace:",
+        "hono": "^4.6.20"
+    },
+    "devDependencies": {
+        "tsx": "^4.19.2",
+        "typescript": "5.7.3",
+        "vercel": "^41.0.1"
+    }
+}
