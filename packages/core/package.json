@@ -3,6 +3,9 @@
     "type": "module",
     "main": "dist/index.js",
     "types": "src/index.ts",
+    "scripts": {
+        "build": "tsc"
+    },
     "dependencies": {
         "@faker-js/faker": "^9.4.0"
     }
