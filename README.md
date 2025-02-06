@@ -22,5 +22,3 @@ pnpm -F @repo/api run vercel build
 ```
 pnpm -F @repo/api run vercel deploy
 ```
-
-6. 
