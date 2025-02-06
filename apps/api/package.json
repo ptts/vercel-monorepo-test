@@ -1,7 +1,6 @@
 {
     "name": "@repo/api",
     "scripts": {
-        "build": "tsc",
         "dev": "tsx node.entry.ts",
         "vercel": "vercel"
     },
