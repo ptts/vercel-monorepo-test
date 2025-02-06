@@ -1,7 +1,7 @@
 # Vercel Hono Monorepo Example
 
 I cannot get this repo to deploy to Vercel. 
-Build fails when it tries to reference the internal package `@repo/core`
+Build fails when it tries to reference the internal package `@repo/core`.
 
 1. Fork this repo
 2. Create project for repo in Vercel (select your forked repo):
