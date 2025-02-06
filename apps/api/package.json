@@ -8,7 +8,7 @@
     "packageManager": "pnpm@9.0.0",
     "dependencies": {
         "@hono/node-server": "^1.13.8",
-        "@repo/core": "workspace:",
+        "@repo/core": "workspace:^",
         "hono": "^4.6.20"
     },
     "devDependencies": {
