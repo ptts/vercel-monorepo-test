@@ -1,7 +1,7 @@
 {
     "name": "@repo/core",
     "type": "module",
-    "main": "index.ts",
+    "main": "src/index.ts",
     "dependencies": {
         "@faker-js/faker": "^9.4.0"
     }
