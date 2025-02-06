@@ -11,8 +11,8 @@ import { app } from "../src/index.js";
  * @see https://vercel.com/docs/functions/configuring-functions/runtime#edge
  * To run with "nodejs" runtime, set `config.runtime` to `undefined`
  */
-export const config: { runtime: "edge" | undefined } = {
-  runtime: "edge",
+export const config = {
+  runtime: "nodejs",
 };
 
 const handler = handle(app);
