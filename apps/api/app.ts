@@ -3,7 +3,8 @@ import { Hono } from "hono";
 
 const app = new Hono();
 
-app.get("/", (c) => c.json({ message: "Root" }));
-app.get("/message", (c) => c.json({ messageFromInternalPackage: MESSAGE }));
+app.get("/", (c) =>
+  c.json({ messageFromInternalPackage: MESSAGE, message: "Success 🎉" })
+);
 
 export { app };
