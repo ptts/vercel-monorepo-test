@@ -1,7 +1,7 @@
 {
     "name": "@repo/api",
     "type": "module",
-    "main": "dist/app.js",
+    "main": "dist/src/app.js",
     "scripts": {
         "build": "tsc",
         "dev": "tsx node.entry.ts",
