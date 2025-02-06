@@ -7,14 +7,6 @@ import { app } from "../src/index.js";
  * @see https://github.com/vercel/hono-starter/blob/main/api/index.js
  */
 
-/**
- * @see https://vercel.com/docs/functions/configuring-functions/runtime#edge
- * To run with "nodejs" runtime, set `config.runtime` to `undefined`
- */
-export const config: { runtime: "edge" | undefined } = {
-  runtime: "edge",
-};
-
 const handler = handle(app);
 
 export const GET = handler;
