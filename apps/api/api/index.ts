@@ -7,7 +7,7 @@ import { app } from "../src/index.js";
  * @see https://github.com/vercel/hono-starter/blob/main/api/index.js
  */
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 const handler = handle(app);
 
